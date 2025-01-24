@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2267325249295336957}
   - component: {fileID: 152791043252826376}
   m_Layer: 0
-  m_Name: BikePlacement
+  m_Name: CouchPlacement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
