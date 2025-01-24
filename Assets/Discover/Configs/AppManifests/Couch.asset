@@ -19,6 +19,6 @@ MonoBehaviour:
   IconSurfaceOrientation: 0
   IconSurfaceType: 1
   IconStartRotation: 90
-  IconPrefab: {fileID: 7408312654150406980, guid: 3ddc5280582d7e64a8efeb681c99e48b, type: 3}
+  IconPrefab: {fileID: 7408312654150406980, guid: 960fb22b06eb18142a08707a40b9020f, type: 3}
   DropIndicator: {fileID: 2324615606433838838, guid: 525b9b5c523a8fe4ea5608392771f65f, type: 3}
   AppPrefab: {fileID: 346884292380826562, guid: 95d42242307044907bcc97930c8ae49c, type: 3}
