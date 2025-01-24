@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915d7fae4bdd2eb45a5857aeb8a48070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_appName: bike
+  m_appName: couch
   m_pointable: {fileID: 5507279906101561092}
   m_highlightMesh: {fileID: 1052748805970404643}
   m_guardianMesh: {fileID: 0}
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2140d2b457bea84881488302059889b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 0}
+  _collider: {fileID: 5795376583796124982}
 --- !u!1 &2459179834529778519
 GameObject:
   m_ObjectHideFlags: 0
