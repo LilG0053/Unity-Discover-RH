@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueName: couch
   DisplayName: Couch
-  Icon: {fileID: 21300000, guid: 4b9a00a96174b0746be8adbbfdb31217, type: 3}
+  Icon: {fileID: 21300000, guid: fbf2845fa547aa04fa3d68bb00e39c88, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 0
   IconSurfaceType: 1
