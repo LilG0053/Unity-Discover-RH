@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: PhotonAppSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdFusion: 
+    AppIdFusion: 3b4f4582-6d34-438a-9c04-db90cb93349c
     AppIdChat: 
-    AppIdVoice: 
+    AppIdVoice: e2cf4eba-9f64-4079-b4ab-e5faf508673c
     AppVersion: 0.0.1
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: us
     Server: 
     Port: 0
     ProxyServer: 
