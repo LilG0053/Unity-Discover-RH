@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueName: lamp
   DisplayName: Lamp
-  Icon: {fileID: 21300000, guid: fbf2845fa547aa04fa3d68bb00e39c88, type: 3}
+  Icon: {fileID: 21300000, guid: b8d46211ce91621449a04877c9cfee96, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 0
   IconSurfaceType: 0
