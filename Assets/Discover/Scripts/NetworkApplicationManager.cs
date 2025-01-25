@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using System;
+using System.Collections.Generic;
 using Discover.Configs;
 using Discover.Icons;
 using Discover.Utilities;
@@ -15,7 +16,7 @@ namespace Discover
 
         [SerializeField] private AppList m_appList;
 
-        public NetworkApplicationContainer CurrentApplication { get; private set; }
+        public NetworkApplicationContainer CurrentApplication { get; set; }
 
         public Action<AppManifest> OnAppStarted;
         public Action OnAppClosed;
@@ -56,6 +57,7 @@ namespace Discover
 
         public void CloseApplication()
         {
+            Debug.Log("The current net app container is: " + CurrentApplication.ToString());
             if (CurrentApplication != null)
             {
                 if (HasStateAuthority)
@@ -71,6 +73,7 @@ namespace Discover
 
         public void OnApplicationStart(NetworkApplicationContainer applicationContainer)
         {
+            Debug.Log(applicationContainer);
             if (CurrentApplication != null)
             {
                 Debug.LogError("There is already an application running");
@@ -78,7 +81,10 @@ namespace Discover
 
             CurrentApplication = applicationContainer;
 
-            IconsManager.Instance.DisableIcons();
+
+            //FIX THIS
+            IconsManager.Instance.DisableIcon(applicationContainer.AppName);
+            //IconsManager.Instance.DisableIcons();
 
             OnAppStarted?.Invoke(m_appList.GetManifestFromName(applicationContainer.AppName));
         }
@@ -105,12 +111,12 @@ namespace Discover
 
         private void LaunchApplication(AppManifest appManifest, Vector3 position, Quaternion rotation)
         {
-            if (CurrentApplication != null)
+            /*if (CurrentApplication != null)
             {
                 Debug.LogError($"An Application ({CurrentApplication.AppName}) is already running! " +
                                $"Not starting ({appManifest.DisplayName}) a new one!");
                 return;
-            }
+            }*/
             _ = Runner.Spawn(appManifest.AppPrefab, position, rotation,
                 onBeforeSpawned: (_, obj) =>
                 {
