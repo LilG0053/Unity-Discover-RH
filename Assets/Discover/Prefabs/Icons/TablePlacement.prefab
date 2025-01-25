@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6216024954903622444}
   - component: {fileID: 5928834193971255315}
   m_Layer: 0
-  m_Name: couch mesh
+  m_Name: table mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 1126573850281799042}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.393, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0.262, z: 0}
+  m_LocalScale: {x: 0.67884004, y: 0.67884004, z: 0.67884004}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2267325249295336957}
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126573850281799042}
-  m_Mesh: {fileID: 4164511204261677510, guid: 04b8a28d7ecd3d6429239644fc55e885, type: 3}
+  m_Mesh: {fileID: -3609677013819277373, guid: b482e8cb9d8841b469e712cb572bda36, type: 3}
 --- !u!23 &5928834193971255315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2267325249295336957}
   - component: {fileID: 152791043252826376}
   m_Layer: 0
-  m_Name: ChairPlacement
+  m_Name: TablePlacement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

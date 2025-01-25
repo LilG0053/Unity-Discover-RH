@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 5507279906101561092}
   - component: {fileID: 5374916149218028536}
   m_Layer: 0
-  m_Name: ChairIcon
+  m_Name: TableIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2140d2b457bea84881488302059889b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 5795376583796124982}
+  _collider: {fileID: 8416652981427264108}
 --- !u!1 &2459179834529778519
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,9 +436,9 @@ GameObject:
   - component: {fileID: 5354765756412673841}
   - component: {fileID: 3251824623909508679}
   - component: {fileID: 1052748805970404643}
-  - component: {fileID: 5795376583796124982}
+  - component: {fileID: 8416652981427264108}
   m_Layer: 0
-  m_Name: chairArt
+  m_Name: TableArt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -453,8 +453,8 @@ Transform:
   m_GameObject: {fileID: 4924954039008435761}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.70710886, z: -0, w: 0.7071048}
-  m_LocalPosition: {x: -0.008940802, y: 0.15937, z: 0.0000000012348956}
-  m_LocalScale: {x: 0.023119614, y: 0.023119612, z: 0.023119614}
+  m_LocalPosition: {x: -0, y: 0.313, z: 0.000000016663}
+  m_LocalScale: {x: 0.789418, y: 0.7894179, z: 0.789418}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4474477522644523405}
@@ -466,7 +466,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4924954039008435761}
-  m_Mesh: {fileID: 8986237552638331582, guid: 1bbd4343a8c9b354b9418e51a16fd83e, type: 3}
+  m_Mesh: {fileID: -3609677013819277373, guid: b482e8cb9d8841b469e712cb572bda36, type: 3}
 --- !u!23 &1052748805970404643
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -509,8 +509,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5795376583796124982
-BoxCollider:
+--- !u!64 &8416652981427264108
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -527,9 +527,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 21.228424, y: 6.8049083, z: 9.471867}
-  m_Center: {x: 0, y: -0.063520305, z: 0}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3609677013819277373, guid: b482e8cb9d8841b469e712cb572bda36, type: 3}
 --- !u!1001 &4960574797013936819
 PrefabInstance:
   m_ObjectHideFlags: 0
