@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04a2d75131ab41a9b1d6b154d891cde6, type: 3}
-  m_Name: AppList
+  m_Name: FurnitureList
   m_EditorClassIdentifier: 
   AppManifests:
-  - {fileID: 11400000, guid: 8e5e809f6ff54324985dca298d911987, type: 2}
-  - {fileID: 11400000, guid: 3cbed3ee187785d46aa09b77fedb4e53, type: 2}
   - {fileID: 11400000, guid: 3ed4b89bbe3798e4498f36cf87423449, type: 2}
   - {fileID: 11400000, guid: 13716be9c5e51134d9ff6443cd424b4e, type: 2}
   - {fileID: 11400000, guid: ed1c51b99edfb4defb03286aa4043fb7, type: 2}

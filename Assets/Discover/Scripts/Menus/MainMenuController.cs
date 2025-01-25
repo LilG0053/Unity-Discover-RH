@@ -22,6 +22,7 @@ namespace Discover.Menus
         [SerializeField] private Transform m_canvasRoot;
         [SerializeField] private AppListMenuController m_appListMenu;
         [SerializeField] private AppListMenuController m_lightingListMenu;
+        [SerializeField] private AppListMenuController m_furnitureListMenu;
         [SerializeField] private AppList m_appList;
 
         // the menu is offset as a child. The parent (this) then snaps to the player as the player moves
@@ -81,7 +82,15 @@ namespace Discover.Menus
         public void SwapManifest(AppList m_newList)
         {
             Debug.Log("swapping apps");
-            m_appListMenu = m_lightingListMenu;
+            if (m_lightingListMenu.gameObject.activeSelf)
+            {
+                m_appListMenu = m_lightingListMenu;
+            }
+            if (m_furnitureListMenu.gameObject.activeSelf)
+            {
+                m_appListMenu = m_furnitureListMenu;
+            }
+
             foreach (var app in m_newList.AppManifests)
             {
                 if (!app)

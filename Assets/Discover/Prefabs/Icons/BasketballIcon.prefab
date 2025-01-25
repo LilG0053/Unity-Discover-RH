@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_appName: couch
   m_pointable: {fileID: 5507279906101561092}
-  m_highlightMesh: {fileID: 0}
+  m_highlightMesh: {fileID: 8552376168370038920}
   m_guardianMesh: {fileID: 0}
   m_rolloverSfx: {fileID: 5909362425862518188}
   m_moveIconController: {fileID: 568464821553052877}
