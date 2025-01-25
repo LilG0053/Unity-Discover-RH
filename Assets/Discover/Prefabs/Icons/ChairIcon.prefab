@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 5507279906101561092}
   - component: {fileID: 5374916149218028536}
   m_Layer: 0
-  m_Name: CouchIcon
+  m_Name: ChairIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 1052748805970404643}
   - component: {fileID: 5795376583796124982}
   m_Layer: 0
-  m_Name: couchArt
+  m_Name: chairArt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -466,7 +466,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4924954039008435761}
-  m_Mesh: {fileID: 4164511204261677510, guid: 04b8a28d7ecd3d6429239644fc55e885, type: 3}
+  m_Mesh: {fileID: 8986237552638331582, guid: 1bbd4343a8c9b354b9418e51a16fd83e, type: 3}
 --- !u!23 &1052748805970404643
 MeshRenderer:
   m_ObjectHideFlags: 0
