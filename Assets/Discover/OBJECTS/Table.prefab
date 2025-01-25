@@ -115,7 +115,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4887551618756727092, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
       propertyPath: m_Name
-      value: PolyObject_Couch
+      value: PolyObject_Table
       objectReference: {fileID: 0}
     - target: {fileID: 5233115567204928398, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
       propertyPath: m_LocalScale.x
@@ -187,6 +187,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4887551618756727092, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5042203675668412802}
+    - targetCorrespondingSourceObject: {fileID: 4887551618756727092, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3598623099696480048}
+    - targetCorrespondingSourceObject: {fileID: 4887551618756727092, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 257867232910887808}
+    - targetCorrespondingSourceObject: {fileID: 4887551618756727092, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2978305031813352374}
+    - targetCorrespondingSourceObject: {fileID: 4887551618756727092, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2632133169666115768}
   m_SourcePrefab: {fileID: 100100000, guid: 3eaf6effada514a1f84c586f9b18ce08, type: 3}
 --- !u!4 &543450653699958763 stripped
 Transform:
@@ -243,3 +255,98 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3609677013819277373, guid: b482e8cb9d8841b469e712cb572bda36, type: 3}
+--- !u!114 &3598623099696480048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149155446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2140d2b457bea84881488302059889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 5042203675668412802}
+--- !u!114 &257867232910887808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149155446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb86ba9d4c5126e48bfef9b0c9550e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 0}
+  _surface: {fileID: 3598623099696480048}
+  _selectSurface: {fileID: 0}
+  _movementProvider: {fileID: 0}
+  _tiebreakerScore: 0
+--- !u!114 &2978305031813352374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149155446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 257867232910887808}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2632133169666115768}
+        m_TargetAssemblyTypeName: ObjectPageSelection, Assembly-CSharp
+        m_MethodName: Selected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2632133169666115768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149155446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b79f55c27c16414bbbd04520c25b55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

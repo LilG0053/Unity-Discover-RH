@@ -1232,6 +1232,10 @@ PrefabInstance:
       propertyPath: m_furnitureListMenu
       value: 
       objectReference: {fileID: 1333786933}
+    - target: {fileID: 1337498559, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Name
+      value: AppMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 1488872529, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_Name
       value: lightingIcon
