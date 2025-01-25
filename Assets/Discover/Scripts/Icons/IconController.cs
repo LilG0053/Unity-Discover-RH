@@ -80,6 +80,7 @@ namespace Discover.Icons
         private void OnPointerRelease(PointerEvent pointerEvent)
         {
             var controller = GetControllerFromPointerEvent(pointerEvent);
+            Debug.Log("Icon clicked");
             if (controller != m_currentController)
             {
                 return;

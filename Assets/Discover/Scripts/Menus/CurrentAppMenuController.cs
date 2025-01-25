@@ -63,6 +63,7 @@ namespace Discover.Menus
         private void InitializeApp(string appName)
         {
             m_appName = appName;
+            Debug.Log("Current app name is: " + m_appName);
             ToggleAppPageOn();
         }
 

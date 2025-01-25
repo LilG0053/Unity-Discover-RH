@@ -78,7 +78,7 @@ namespace Discover
 
             CurrentApplication = applicationContainer;
 
-            IconsManager.Instance.DisableIcons();
+            //IconsManager.Instance.DisableIcons();
 
             OnAppStarted?.Invoke(m_appList.GetManifestFromName(applicationContainer.AppName));
         }
@@ -105,12 +105,12 @@ namespace Discover
 
         private void LaunchApplication(AppManifest appManifest, Vector3 position, Quaternion rotation)
         {
-            if (CurrentApplication != null)
+            /*if (CurrentApplication != null)
             {
                 Debug.LogError($"An Application ({CurrentApplication.AppName}) is already running! " +
                                $"Not starting ({appManifest.DisplayName}) a new one!");
                 return;
-            }
+            }*/
             _ = Runner.Spawn(appManifest.AppPrefab, position, rotation,
                 onBeforeSpawned: (_, obj) =>
                 {
