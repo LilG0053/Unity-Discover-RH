@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 894b034db1e646d0856d4351fa3881fd, type: 3}
-  m_Name: Table
+  m_Name: Hoop
   m_EditorClassIdentifier: 
-  UniqueName: table
-  DisplayName: Table
+  UniqueName: hoop
+  DisplayName: Hoop
   Icon: {fileID: 21300000, guid: e06a712f1b933d94dbd47ebb6e774280, type: 3}
   DisplayType: 0
-  IconSurfaceOrientation: 0
-  IconSurfaceType: 1
+  IconSurfaceOrientation: 1
+  IconSurfaceType: 0
   IconStartRotation: 0
-  IconPrefab: {fileID: 7408312654150406980, guid: 7bb9802de6aed454cbaa63929f6f7160, type: 3}
-  DropIndicator: {fileID: 2324615606433838838, guid: 8d320adaca4672f49bb27e9dad754ee0, type: 3}
-  AppPrefab: {fileID: 346884292380826562, guid: e3dfe5f2b66499d42840fbfdf6030fd6, type: 3}
+  IconPrefab: {fileID: 7408312654150406980, guid: 8cbedd419c53340b19f101d08fe58351, type: 3}
+  DropIndicator: {fileID: 2324615606433838838, guid: 83633abe560dc4e6fb754528334f64a5, type: 3}
+  AppPrefab: {fileID: 346884292380826562, guid: 3e640f839c55d4c77aa4a369cffedee7, type: 3}
