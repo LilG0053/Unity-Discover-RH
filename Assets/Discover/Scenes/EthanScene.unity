@@ -1368,6 +1368,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1776844367, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_text
+      value: Furniture
+      objectReference: {fileID: 0}
     - target: {fileID: 30560263816842398, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -4510,7 +4514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MR Apps
+  m_text: Lighting
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a420e896195689447820b69b7f77b2d8, type: 2}
   m_sharedMaterial: {fileID: 8346128081745243057, guid: a420e896195689447820b69b7f77b2d8, type: 2}
