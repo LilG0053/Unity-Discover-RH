@@ -60,7 +60,7 @@ namespace Discover.Menus
             NetworkApplicationManager.Instance.CloseApplication();
         }
 
-        private void InitializeApp(string appName)
+        public void InitializeApp(string appName)
         {
             m_appName = appName;
             Debug.Log("Current app name is: " + m_appName);

@@ -43,6 +43,15 @@ namespace Discover.Icons
             ToggleIcons(false);
         }
 
+        public void DisableIcon(string iconName)
+        {
+            ToggleIcon(iconName, false);
+        }
+
+        private void ToggleIcon(string key, bool enable)
+        {
+            m_iconMap[key].SetActive(enable);
+        }
         private void ToggleIcons(bool enable)
         {
             m_iconsEnabled = enable;
