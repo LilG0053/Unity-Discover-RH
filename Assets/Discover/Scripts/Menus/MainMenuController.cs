@@ -21,6 +21,7 @@ namespace Discover.Menus
         [SerializeField] private GameObject m_mainMenuRoot;
         [SerializeField] private Transform m_canvasRoot;
         [SerializeField] private AppListMenuController m_appListMenu;
+        [SerializeField] private AppListMenuController m_lightingListMenu;
         [SerializeField] private AppList m_appList;
 
         // the menu is offset as a child. The parent (this) then snaps to the player as the player moves
@@ -62,6 +63,7 @@ namespace Discover.Menus
             m_mainMenuRoot.transform.LookAt(transform);
 
             Debug.Log($"{nameof(MainMenuController)}: Populating app list with {m_appList.AppManifests.Count} apps.");
+
             foreach (var app in m_appList.AppManifests)
             {
                 if (!app)
@@ -74,6 +76,25 @@ namespace Discover.Menus
             }
 
             m_mainMenuRoot.SetActive(false);
+        }
+
+        public void SwapManifest(AppList m_newList)
+        {
+            Debug.Log("swapping apps");
+            m_appListMenu = m_lightingListMenu;
+            foreach (var app in m_newList.AppManifests)
+            {
+                if (!app)
+                {
+                    Debug.LogError($"Null app manifest in {nameof(m_appList)}.");
+                    continue;
+                }
+                if (!m_appListMenu.m_appTiles.ContainsKey(app.UniqueName))
+                {
+                    var tile = m_appListMenu.AddApp(app.UniqueName, app.DisplayName, app.Icon, app.DisplayType);
+                    tile.OnClick.AddListener(handedness => OnTileSelected?.Invoke(app, handedness));
+                }
+            }
         }
 
         private void Update()

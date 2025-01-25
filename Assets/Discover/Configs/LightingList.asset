@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AppManifests:
   - {fileID: 11400000, guid: 53e7d1dc4421f924dbcbe5751658676f, type: 2}
+  - {fileID: 11400000, guid: ed1c51b99edfb4defb03286aa4043fb7, type: 2}

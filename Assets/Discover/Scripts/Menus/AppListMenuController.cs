@@ -16,7 +16,7 @@ namespace Discover.Menus
         [SerializeField] private Transform m_appListMR;
         [SerializeField] private Transform m_appListVR;
 
-        private Dictionary<string, GameObject> m_appTiles = new();
+        public Dictionary<string, GameObject> m_appTiles = new();
 
         private void Awake()
         {
