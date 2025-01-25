@@ -19,9 +19,16 @@ namespace Discover
         [SerializeField] private AppIconPlacementController m_iconPlacementController;
 
         [SerializeField] private IconAnchorNetworked m_iconAnchorPrefab;
-        [SerializeField] private AppList m_appList;
+        [SerializeField] private AppList m_furnitureList;
+        [SerializeField] private AppList m_lightingList;
+        [SerializeField] private GameObject furnitureTab;
+        [SerializeField] private GameObject lightingTab;
 
+        private AppList m_appList;
         private IconAnchorNetworked m_movingIcon;
+
+        //checks for awake
+        
 
         private SpatialAnchorManager<SpatialAnchorSaveData> m_anchorManager;
 
@@ -43,8 +50,30 @@ namespace Discover
 
             m_iconPlacementController.OnAppPlaced += OnAppPlaced;
             m_iconPlacementController.OnAppPlacementCanceled += OnAppPlacementCanceled;
+
+            m_appList = m_furnitureList;
         }
 
+        private void Update()
+        {
+            if (furnitureTab.activeSelf)
+            {
+                if (!m_appList.Equals(m_furnitureList))
+                {
+                    m_appList = m_furnitureList;
+                    Debug.Log("App list set to furniture list");
+                }
+            }
+
+            if (lightingTab.activeSelf)
+            {
+                if (!m_appList.Equals(m_lightingList))
+                {
+                    m_appList = m_lightingList;
+                    Debug.Log("App list set to lighting list");
+                }
+            }
+        }
         private void OnDisable()
         {
             m_mainMenuController.OnTileSelected -= OnTileSelected;
