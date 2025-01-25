@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueName: couch
   DisplayName: Couch
-  Icon: {fileID: 21300000, guid: aff9426407149294c9ee519cbd90f4af, type: 3}
+  Icon: {fileID: 21300000, guid: fbf2845fa547aa04fa3d68bb00e39c88, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 0
   IconSurfaceType: 1
-  IconStartRotation: 90
+  IconStartRotation: 0
   IconPrefab: {fileID: 7408312654150406980, guid: 960fb22b06eb18142a08707a40b9020f, type: 3}
   DropIndicator: {fileID: 2324615606433838838, guid: 525b9b5c523a8fe4ea5608392771f65f, type: 3}
   AppPrefab: {fileID: 346884292380826562, guid: 95d42242307044907bcc97930c8ae49c, type: 3}
