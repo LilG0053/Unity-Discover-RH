@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04a2d75131ab41a9b1d6b154d891cde6, type: 3}
-  m_Name: AppList
+  m_Name: FurnitureList
   m_EditorClassIdentifier: 
   AppManifests:
   - {fileID: 11400000, guid: 8e5e809f6ff54324985dca298d911987, type: 2}
