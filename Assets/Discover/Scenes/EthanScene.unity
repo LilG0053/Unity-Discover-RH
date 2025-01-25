@@ -546,6 +546,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 280124898, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6fb34109e8844b459063f2ff6674fb5, type: 3}
+    - target: {fileID: 1488872529, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Name
+      value: lightingIcon
+      objectReference: {fileID: 0}
     - target: {fileID: 1488872530, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -586,6 +594,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 59291391067651868, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Name
+      value: furnitureIcon
+      objectReference: {fileID: 0}
     - target: {fileID: 59291391067651871, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -602,6 +614,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 59291391626292463, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee49349dc3e9eb1409f13d9b83de9c5f, type: 3}
     - target: {fileID: 189649356509201337, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -674,6 +690,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1481180779012167045, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c84a62459051cff4585ab0fefe76b7b8, type: 3}
     - target: {fileID: 2500907847418595572, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -769,6 +789,18 @@ PrefabInstance:
     - target: {fileID: 6844536447911543892, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048821385691458025, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048821385691458025, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e015d1682c1235e48929a602481d25c4, type: 3}
+    - target: {fileID: 7341932551803213837, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
+      propertyPath: m_Name
+      value: soundIcon
       objectReference: {fileID: 0}
     - target: {fileID: 7655017490846736266, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
       propertyPath: m_AnchorMax.y
