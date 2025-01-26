@@ -4601,6 +4601,31 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 
     _installationVariants: []
+--- !u!114 &1460812109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460812097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76943ac7e7394f3e969f0c048b26639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnOnStart: 1
+  MeshMaterial: {fileID: 2100000, guid: 69e54be2e702f984683fa4816dc4b0f8, type: 2}
+  BorderSize: 0
+  Colliders: 0
+  CutHoles: 0
+  castShadows: 1
+  hideMesh: 0
+  Layer: 0
+  textureCoordinateModes:
+  - WallU: 0
+    WallV: 0
+    AnchorUV: 0
+  Labels: 16384
 --- !u!1 &1491206864 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7684451678503951628, guid: c33c022c8840243d89f5d6b041c9a999, type: 3}
@@ -4715,7 +4740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1502144939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6883,6 +6908,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1698887779226661499, guid: 6f4db04e8e6005c4b8cef6b721c3fff5, type: 3}
       insertIndex: 1
       addedObject: {fileID: 1460812103}
+    - targetCorrespondingSourceObject: {fileID: 1698887779226661499, guid: 6f4db04e8e6005c4b8cef6b721c3fff5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1460812109}
     - targetCorrespondingSourceObject: {fileID: 8315616189646709620, guid: 6f4db04e8e6005c4b8cef6b721c3fff5, type: 3}
       insertIndex: 1
       addedObject: {fileID: 162890544}
