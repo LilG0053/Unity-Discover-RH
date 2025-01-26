@@ -402,6 +402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlameStandardMaterial
       objectReference: {fileID: 0}
+    - target: {fileID: 1039344468339458070, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1212729708072756790, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: m_Intensity
       value: 0.25
@@ -417,6 +421,10 @@ PrefabInstance:
     - target: {fileID: 8402226259360038982, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457706309494822334, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8457706309494822334, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: attractionTarget
