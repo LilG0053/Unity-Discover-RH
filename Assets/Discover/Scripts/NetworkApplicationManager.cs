@@ -98,7 +98,6 @@ namespace Discover
 
             CurrentApplication = null;
 
-            IconsManager.Instance.EnableIcons();
             OnAppClosed?.Invoke();
         }
 
@@ -133,6 +132,7 @@ namespace Discover
 
         private void StopApplication()
         {
+            Debug.Log("Stopping Application");
             if (CurrentApplication != null)
             {
                 CurrentApplication.Shutdown();
