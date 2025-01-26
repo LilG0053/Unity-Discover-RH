@@ -116,15 +116,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444874708628528769, guid: f142b943bebe447f88617cb44eab177f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4
+      value: 1.8999999
       objectReference: {fileID: 0}
     - target: {fileID: 444874708628528769, guid: f142b943bebe447f88617cb44eab177f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.4
+      value: 1.8999999
       objectReference: {fileID: 0}
     - target: {fileID: 444874708628528769, guid: f142b943bebe447f88617cb44eab177f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.4
+      value: 1.8999999
       objectReference: {fileID: 0}
     - target: {fileID: 444874708628528769, guid: f142b943bebe447f88617cb44eab177f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -401,6 +401,18 @@ PrefabInstance:
     - target: {fileID: 1039344468339458070, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: m_Name
       value: FlameStandardMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402226259360038982, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402226259360038982, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402226259360038982, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.155
       objectReference: {fileID: 0}
     - target: {fileID: 8457706309494822334, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: attractionTarget
