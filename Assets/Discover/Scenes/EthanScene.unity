@@ -6529,6 +6529,34 @@ PrefabInstance:
       propertyPath: m_roomName
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1564162723}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CreateMesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta.XR.MRUtilityKit.EffectMesh, meta.xr.mrutilitykit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8607410746533215698, guid: 0f67b9e3ea6bc1847806dd5b2f8f4ed7, type: 3}
+      propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
