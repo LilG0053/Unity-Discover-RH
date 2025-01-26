@@ -7,6 +7,7 @@ using Discover.Icons;
 using Discover.Utilities;
 using Fusion;
 using UnityEngine;
+using Discover;
 
 namespace Discover
 {
@@ -67,6 +68,31 @@ namespace Discover
                 else
                 {
                     StopApplicationOnServerRPC();
+                }
+                IconsManager.Instance.DeregisterIcon(CurrentApplication.AppName);
+                var iconTransform = AppsManager.Instance.m_movingIcon.transform;
+                if (iconTransform.TryGetComponent<OVRSpatialAnchor>(out var anchor))
+                {
+                    AppsManager.Instance.m_anchorManager.EraseAnchor(anchor, false,
+                        (erasedAnchor, success) =>
+                        {
+                            if (success)
+                            {
+                                DestroyImmediate(anchor);
+                                /*iconTransform.position = position;
+                                iconTransform.rotation = rotation;
+                                var newAnchor = m_movingIcon.gameObject.AddComponent<OVRSpatialAnchor>();
+                                m_anchorManager.SaveAnchor(newAnchor, new SpatialAnchorSaveData()
+                                {
+                                    Name = appManifest.UniqueName
+                                });*/
+                            }
+                            else
+                            {
+                                Debug.LogError("Failed to erase anchor");
+                            }
+                            AppsManager.Instance.m_movingIcon = null;
+                        });
                 }
             }
         }

@@ -201,6 +201,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 039cd9876fa04b34c8537ad0f7973d3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4551169183442067843}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 039cd9876fa04b34c8537ad0f7973d3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8252874650316535692}
   m_SourcePrefab: {fileID: 100100000, guid: 039cd9876fa04b34c8537ad0f7973d3a, type: 3}
 --- !u!4 &4969580843815715211 stripped
 Transform:
@@ -315,6 +318,18 @@ MonoBehaviour:
       - m_Target: {fileID: 4864427630690318416}
         m_TargetAssemblyTypeName: ObjectPageSelection, Assembly-CSharp
         m_MethodName: Selected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8252874650316535692}
+        m_TargetAssemblyTypeName: RadioScript, Assembly-CSharp
+        m_MethodName: radioClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -463,3 +478,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8252874650316535692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5745660592980007729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9757901ed82984583bc5dbc380d99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

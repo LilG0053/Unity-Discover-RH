@@ -29,12 +29,12 @@ namespace Discover
         [SerializeField] private GameObject soundTab;
 
         private AppList m_appList;
-        private IconAnchorNetworked m_movingIcon;
+        public IconAnchorNetworked m_movingIcon;
 
         //checks for awake
         
 
-        private SpatialAnchorManager<SpatialAnchorSaveData> m_anchorManager;
+        public SpatialAnchorManager<SpatialAnchorSaveData> m_anchorManager;
 
         public bool CanMoveIcon { get; set; } = false;
 
@@ -101,12 +101,12 @@ namespace Discover
         {
             Debug.Log($"[{nameof(AppsManager)}] Tile selected {appManifest.UniqueName}");
             m_mainMenuController.ToggleMenu();
-            if (IconsManager.Instance.TryGetIconObject(appManifest.UniqueName, out var iconObj))
+            /*if (IconsManager.Instance.TryGetIconObject(appManifest.UniqueName, out var iconObj))
             {
                 NetworkApplicationManager.Instance.LaunchApplication(appManifest, iconObj.transform);
                 return;
             }
-
+*/
             if (AvatarColocationManager.Instance.CanPlaceOrMoveIcons)
             {
                 m_iconPlacementController.StartPlacement(appManifest, handedness);
