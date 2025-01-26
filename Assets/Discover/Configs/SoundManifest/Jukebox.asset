@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894b034db1e646d0856d4351fa3881fd, type: 3}
+  m_Name: Jukebox
+  m_EditorClassIdentifier: 
+  UniqueName: jukebox
+  DisplayName: Jukebox
+  Icon: {fileID: 21300000, guid: f2bff57ba9d312444a9156795605bea1, type: 3}
+  DisplayType: 0
+  IconSurfaceOrientation: 0
+  IconSurfaceType: 0
+  IconStartRotation: 0
+  IconPrefab: {fileID: 7408312654150406980, guid: 3632cf1b203d756439822d04ab23d2e7, type: 3}
+  DropIndicator: {fileID: 2324615606433838838, guid: a455f4a615007034ebaafea7e077c56a, type: 3}
+  AppPrefab: {fileID: 346884292380826562, guid: 81a2fc59f0fe2e14a9cc0aa4eb325bd5, type: 3}

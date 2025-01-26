@@ -19,10 +19,14 @@ namespace Discover
         [SerializeField] private AppIconPlacementController m_iconPlacementController;
 
         [SerializeField] private IconAnchorNetworked m_iconAnchorPrefab;
+        //Manifests
         [SerializeField] private AppList m_furnitureList;
         [SerializeField] private AppList m_lightingList;
+        [SerializeField] private AppList m_soundList;
+        //Tabs
         [SerializeField] private GameObject furnitureTab;
         [SerializeField] private GameObject lightingTab;
+        [SerializeField] private GameObject soundTab;
 
         private AppList m_appList;
         private IconAnchorNetworked m_movingIcon;
@@ -71,6 +75,15 @@ namespace Discover
                 {
                     m_appList = m_lightingList;
                     Debug.Log("App list set to lighting list");
+                }
+            }
+
+            if (soundTab.activeSelf)
+            {
+                if (!m_appList.Equals(m_soundList))
+                {
+                    m_appList = m_soundList;
+                    Debug.Log("App list set to sound list");
                 }
             }
         }

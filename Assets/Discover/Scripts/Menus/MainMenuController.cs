@@ -23,6 +23,7 @@ namespace Discover.Menus
         [SerializeField] private AppListMenuController m_appListMenu;
         [SerializeField] private AppListMenuController m_lightingListMenu;
         [SerializeField] private AppListMenuController m_furnitureListMenu;
+        [SerializeField] private AppListMenuController m_soundListMenu;
         [SerializeField] private AppList m_appList;
 
         // the menu is offset as a child. The parent (this) then snaps to the player as the player moves
@@ -90,7 +91,10 @@ namespace Discover.Menus
             {
                 m_appListMenu = m_furnitureListMenu;
             }
-
+            if (m_soundListMenu.gameObject.activeSelf)
+            {
+                m_appListMenu = m_soundListMenu;
+            }
             foreach (var app in m_newList.AppManifests)
             {
                 if (!app)
