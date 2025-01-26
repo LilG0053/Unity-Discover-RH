@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueName: hoop
   DisplayName: Hoop
-  Icon: {fileID: 21300000, guid: e06a712f1b933d94dbd47ebb6e774280, type: 3}
+  Icon: {fileID: 21300000, guid: 5d02161dd98004417912e17b008ddf9e, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 1
   IconSurfaceType: 0
