@@ -133,6 +133,7 @@ namespace Discover
 
         private void StopApplication()
         {
+            Debug.Log("Stopping Application");
             if (CurrentApplication != null)
             {
                 CurrentApplication.Shutdown();
