@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915d7fae4bdd2eb45a5857aeb8a48070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_appName: couch
+  m_appName: cube
   m_pointable: {fileID: 5507279906101561092}
   m_highlightMesh: {fileID: 1052748805970404643}
   m_guardianMesh: {fileID: 0}

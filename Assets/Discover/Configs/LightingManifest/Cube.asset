@@ -17,7 +17,7 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: fd3ad779ca42d8f45909cff64496d036, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 0
-  IconSurfaceType: 1
+  IconSurfaceType: 0
   IconStartRotation: 0
   IconPrefab: {fileID: 7408312654150406980, guid: 89eb6557386de03438afb7aba3b5f4b5, type: 3}
   DropIndicator: {fileID: 2324615606433838838, guid: a20b91465545b7f45936f41bf8b9b538, type: 3}
