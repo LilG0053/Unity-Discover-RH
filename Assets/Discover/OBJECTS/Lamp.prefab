@@ -419,6 +419,10 @@ PrefabInstance:
       value: 0.155
       objectReference: {fileID: 0}
     - target: {fileID: 8457706309494822334, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457706309494822334, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: attractionTarget
       value: 
       objectReference: {fileID: 6954216277392188686}
@@ -427,7 +431,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1039344468339458070, guid: 35418b3e8934b07439c10b649802da55, type: 3}
-      insertIndex: 1
+      insertIndex: -1
       addedObject: {fileID: 6977105645213633528}
     - targetCorrespondingSourceObject: {fileID: 860636113815524470, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       insertIndex: -1
