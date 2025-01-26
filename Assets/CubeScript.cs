@@ -18,6 +18,7 @@ public class CubeScript : MonoBehaviour
         colors.Add(new Color(1.0f, 0.0f, 1.0f));  // Magenta
         i = 0;
         material.color = colors[i];
+        material.SetColor("_EmissionColor", colors[i]);
     }
 
     // Update is called once per frame
