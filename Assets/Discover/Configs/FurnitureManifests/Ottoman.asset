@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueName: ottoman
   DisplayName: Ottoman
-  Icon: {fileID: 21300000, guid: e06a712f1b933d94dbd47ebb6e774280, type: 3}
+  Icon: {fileID: 21300000, guid: 535e30a77238a469c83cb79d7e37349c, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 0
   IconSurfaceType: 1
