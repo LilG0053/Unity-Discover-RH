@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueName: jukebox
   DisplayName: Jukebox
-  Icon: {fileID: 21300000, guid: f2bff57ba9d312444a9156795605bea1, type: 3}
+  Icon: {fileID: 21300000, guid: c96fb62983813476bb985df06e6c09b3, type: 3}
   DisplayType: 0
   IconSurfaceOrientation: 0
   IconSurfaceType: 0
