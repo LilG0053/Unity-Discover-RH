@@ -402,6 +402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlameStandardMaterial
       objectReference: {fileID: 0}
+    - target: {fileID: 1212729708072756790, guid: 35418b3e8934b07439c10b649802da55, type: 3}
+      propertyPath: m_Intensity
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8402226259360038982, guid: 35418b3e8934b07439c10b649802da55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
