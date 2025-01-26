@@ -98,7 +98,6 @@ namespace Discover
 
             CurrentApplication = null;
 
-            IconsManager.Instance.EnableIcons();
             OnAppClosed?.Invoke();
         }
 
