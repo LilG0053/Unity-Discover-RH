@@ -50,6 +50,11 @@ namespace Discover.Icons
             m_moveIconController.Hide();
         }
 
+        private void Start()
+        {
+            StartApp();
+        }
+
         private void OnDestroy()
         {
             if (m_appName != null)
