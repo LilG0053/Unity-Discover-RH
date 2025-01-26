@@ -21,4 +21,4 @@ MonoBehaviour:
   IconStartRotation: 0
   IconPrefab: {fileID: 7408312654150406980, guid: b430cb1523b0746528498817e76cb0b2, type: 3}
   DropIndicator: {fileID: 2324615606433838838, guid: a7ebbc22caf9e4b9580cc2c8a0682da1, type: 3}
-  AppPrefab: {fileID: 346884292380826562, guid: 6a3564243a56c4ab48cf884348ecce74, type: 3}
+  AppPrefab: {fileID: 346884292380826562, guid: 381446f6926ee4a849b3e2899861f720, type: 3}
