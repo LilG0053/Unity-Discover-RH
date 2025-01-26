@@ -237,6 +237,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1364087873485794358, guid: 315bf88b0dc0eb54da7db21b1d8978d2, type: 3}
     - target: {fileID: 2332343975077155886, guid: ff1974460c8cc0749ba7078a83c20805, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332343975077155886, guid: ff1974460c8cc0749ba7078a83c20805, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d7a9c82e845985d4c8e0d293adca87c1, type: 2}
@@ -326,6 +330,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4278096444458579451, guid: ff1974460c8cc0749ba7078a83c20805, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6858442661663880804}
+    - targetCorrespondingSourceObject: {fileID: 4278096444458579451, guid: ff1974460c8cc0749ba7078a83c20805, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3689074779980223753}
   m_SourcePrefab: {fileID: 100100000, guid: ff1974460c8cc0749ba7078a83c20805, type: 3}
 --- !u!4 &1334909495911437741 stripped
 Transform:
@@ -449,6 +456,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3689074779980223753}
+        m_TargetAssemblyTypeName: CubeScript, Assembly-CSharp
+        m_MethodName: CubeClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
       m_Calls: []
@@ -476,3 +495,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b79f55c27c16414bbbd04520c25b55e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3689074779980223753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859245239146417943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6baa5f82decaefd42aa633ce90a11a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeLight: {fileID: 8418380978321539736}
+  material: {fileID: 2100000, guid: 9c443f587a6884545927858f0e209807, type: 2}
